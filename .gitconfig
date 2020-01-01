@@ -1,0 +1,22 @@
+[user]
+	name = The Maya Hiker
+	email = the.maya.hiker@gmail.com
+[alias]
+	alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
+	b = branch
+	ca = commit --amend
+	cm = commit -m
+	co = checkout
+	f = fetch -p
+	l = log --oneline
+	lg = log --oneline --graph
+	lga = log --oneline --graph --all
+	ll = log
+	llg = log --graph
+	llga = log --graph --all
+	s = status
+	st = status
+[merge]
+	ff = false
+[pull]
+	ff = only
