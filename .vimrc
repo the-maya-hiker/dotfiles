@@ -11,6 +11,7 @@ nnoremap j gj
 nnoremap k gk
 syntax enable
 
+set list listchars=tab:\>\-
 set tabstop=2
 set shiftwidth=2
 
